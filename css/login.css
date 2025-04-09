@@ -18,3 +18,15 @@ overflow: hidden;
     height: 5px;
     background: linear-gradient(90deg, var(--primary-color), #9c88ff);
 }
+
+.form-group {
+    position: relative;
+}
+
+label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
