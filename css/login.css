@@ -1,15 +1,15 @@
 .login-container {
-background-color: var(--card-bg);
-width: 100%;
-max-width: 420px;
-border-radius: var(--border-radius);
-box-shadow: var(--box-shadow);
-padding: 2.5rem;
-position: relative;
-overflow: hidden;
+    background-color: var(--card-bg);
+    width: 100%;
+    max-width: 420px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
-.login-container::before{
+.login-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -19,7 +19,25 @@ overflow: hidden;
     background: linear-gradient(90deg, var(--primary-color), #9c88ff);
 }
 
+header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.subtitle {
+    color: var(--text-secundary);
+    font-size: 0.95rem;
+}
+
 .form-group {
+    margin-bottom: 1.5rem;
     position: relative;
 }
 
