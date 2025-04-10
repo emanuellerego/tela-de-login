@@ -206,4 +206,8 @@ button:active {
     text-decoration: underline;
 }
 
-@media (max-)
+@media (max-width: 480px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+    }
+}
