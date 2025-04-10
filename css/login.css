@@ -53,7 +53,7 @@ label {
     position: relative;
 }
 
-input{
+input {
     width: 100%;
     padding: 1rem;
     background-color: var(--input-bg);
@@ -61,7 +61,7 @@ input{
     border-radius: var(--border-radius);
     color: var(--text-primary);
     font-size: 1rem;
-    transition: var(--transition);
+    transition: var(--transition); 
 }
 
 input:focus{
@@ -70,7 +70,7 @@ input:focus{
     box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
 }
 
-input::placeholder{
+input::placeholder {
     color: var(--text-secundary);
     opacity: 0.7;
 }
@@ -126,7 +126,7 @@ button {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,5 +138,5 @@ button:hover {
 }
 
 button:active {
-    transform: translateY();
+    transform: translateY(0);
 }
