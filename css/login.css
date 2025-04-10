@@ -148,7 +148,7 @@ button:active {
 }
 
 .divider::before,
-.divider::after {
+.divider::after{
     content: '';
     flex: 1;
     height: 1px;
@@ -169,6 +169,8 @@ button:active {
 }
 
 .social-btn {
+    color: var(--text-primary);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,4 +186,22 @@ button:active {
 .social-btn:hover {
     background-color: rgba(255, 255, 255, 0.05);
     transform: translateY(-5px); 
+}
+
+.singup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--text-secundary);
+    font-size: 0.9rem;
+}
+
+.singup-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+} 
+
+.singup-link a:hover {
+    text-decoration: underline;
 }
